@@ -7,5 +7,6 @@ bower_components
 
 ### SASS ###
 *.sass
-
+**/.sass-cache
+**/.sass-cache/*
 *.map
