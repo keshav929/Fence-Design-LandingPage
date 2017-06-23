@@ -1,0 +1,28 @@
+{
+  "name": "test-project",
+  "authors": [
+    "keshavkundal929@gmail.com <keshavkundal929@gmail.com>"
+  ],
+  "description": "This is a test-project",
+  "main": "index.html",
+  "keywords": [
+    "test",
+    "demo",
+    "html",
+    "index"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
