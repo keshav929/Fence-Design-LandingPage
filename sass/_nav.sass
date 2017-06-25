@@ -1,5 +1,44 @@
-body
-  background-color: red;
-  color: blue;
+.outer-main-div
+  background-color: $primary-color;
+  height: $height;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  .logo
+    position: relative;
+    top: 35px;
+    font-weight: bold;
+  nav
+    height: $height;
+    position: relative;
+    top: -17px;
+    ul.navbar
+      height: $height;
+      float: right;
+      margin-bottom: 0px;
+      li.nav-item
+        height: $height;
+        list-style: none;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        top: -1px;
+        padding: 0px 12px;
+        background-color: inherit;
+        border-top: 3px solid transparent;
+        transition: all 0.2s ease-in-out;
+        &:hover
+          background-color: darken($primary-color, 6);
+          border-top-color: $secondary-color;
+        a
+          font-weight: 400;
+          text-decoration: none;
+          color: #eee;
+          line-height: $height;
+
+
+
+
 
 //end of nav file
